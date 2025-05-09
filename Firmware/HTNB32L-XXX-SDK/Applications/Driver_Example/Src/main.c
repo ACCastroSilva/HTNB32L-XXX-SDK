@@ -16,8 +16,8 @@
 
 #include "main.h"
 
-static HT_Peripheral peripheral_select = I2C_EX;
-
+static HT_Peripheral peripheral_select = USART_EX;
+ 
 char buff_size[513];
 
 extern USART_HandleTypeDef huart1;
